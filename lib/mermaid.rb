@@ -1,10 +1,9 @@
 class Mermaid
-  attr_reader :name, :age, :get_older
+  attr_reader :name, :age
 
-  def initialize(name, age, get_older)
+  def initialize(name)
     @name = name
-    @age = age
-    @get_older = get_older
+    @age = 22
   end
 
   def get_older()
